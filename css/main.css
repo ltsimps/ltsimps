@@ -1,0 +1,9 @@
+.blog-title {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.blogPost {
+  color: blue;
+}
