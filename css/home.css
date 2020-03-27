@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.search {
+  flex: 1;
+}
+
+.container > li {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

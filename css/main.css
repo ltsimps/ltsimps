@@ -1,9 +1,3 @@
-.blog-title {
-  display: flex;
-  justify-content: center;
-  color: green;
-}
-
-.blogPost {
-  color: blue;
-}
+@import "./home.css";
+@import "./post.css";
+@import "./images.css";
