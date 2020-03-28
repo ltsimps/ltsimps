@@ -1,0 +1,23 @@
+@import "./thirdparty.css";
+
+.header-section {
+  display: grid;
+  grid-template-rows: 10% 15% 35% 20% 10%;
+  justify-self: center;
+  gap: 50px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topic {
+  color: rgb(179, 146, 40);
+}
+
+.fancy-title {
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}

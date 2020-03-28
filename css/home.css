@@ -11,21 +11,14 @@
   flex: 1;
 }
 
+.content {
+  display: grid;
+  grid-template-rows: 10% 50% 30% 10%;
+  gap: 100px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-p {
-  height: 100px;
-  width: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-body {
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }

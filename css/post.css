@@ -1,12 +1,5 @@
-.post {
+.post-content {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  gap: 100px;
-}
-
-.blogPost {
-  color: blue;
-  display: flex;
-  flex-direction: column;
+  justify-self: center;
 }
