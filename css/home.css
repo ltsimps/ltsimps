@@ -14,7 +14,7 @@
 .content {
   display: grid;
   grid-template-rows: 10% 50% 30% 10%;
-  gap: 100px;
+  gap: 30px;
 }
 
 ul {
